@@ -18,6 +18,7 @@ nav{
     padding-right:  20px;
     margin-right: 20px;
     justify-content: flex-end;
+    margin: 50px;
 }
 nav ul{
     list-style: none;
@@ -47,6 +48,7 @@ main section {
     align-items: center;
 }
 main section div h1 {
+    margin: 30px;
     color: #fff;
     text-align: center;
     font-size: bold;
@@ -67,6 +69,8 @@ main section span{
     padding-left: 10px;
     padding-right: 10px;
     font-size: bold;
+    color: #fff;
+
 }
 main section button{
     display: block;
@@ -76,14 +80,99 @@ main section button{
     border-color: #fff;
     border-radius:   20px;
     margin: 20px auto;
+    font-size: 14px;
 }
 .author{
     display: flex;
     text-align: center;
     margin: 40px;
+    color: #fff;
+   
 }
-.author div{
 
+ p {
+    display: block;
+    width:400px ;
+    height: 237px;
+    top: 758px;
+    left: 217px;
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+}
+main section div h2 span {
+   color: #C271FF;
+}
+main section div h2 {
+    margin: 50px;
+    color: #fff;
+    font-family: Source Sans Pro;
+}
+.person {
+    background-color: #C271FF;
+    display: flex; 
+    width: 100%;
+}
+.person image {
+   margin-right: 10px;
 }
 
+.person {
+    blockquote {
+        display: inline-block;
+        margin-top: 10px;
+        text-align: left;
+        color: #fff;
+    }
 
+    h3,
+    p {
+        text-align: left;
+        color: #fff;
+}
+}
+.person,
+.popular {
+    margin: 0;
+}
+.popular{
+    background-color: #fff;
+    /* display: flex; */
+ }
+    
+
+.popular h2 span {
+    color: #C271FF;
+}
+.popular h2 {
+    font-weight: normal;
+    font-size: 32px;
+    margin-top: 30px;
+}  
+
+.popular div {
+    display: flex;
+    /* margin: 30px; */
+    text-align: center;
+    /* color: #fff; */
+}
+
+/* .popular{
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    
+}
+.popular h2 span{
+    color: #C271FF;
+}
+/* .popular h2{
+font-weight: normal;
+font-size: 32px;
+}
+.popular_image {
+    margin: 30px;
+}  */
