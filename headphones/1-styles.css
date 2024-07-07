@@ -1,5 +1,15 @@
-body{
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.whatwe{
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
 }
 main p{
     text-align: center;
@@ -13,8 +23,17 @@ main p{
     margin: 0;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
 }
 .whatwedo p{
     padding: 10px;
     margin: 10px;
+}
+@media (max-width:480){
+    .whatwedo{
+        display: block;
+        align-items: center ;
+        padding: 0;
+        margin: 0;
+    }
 }
